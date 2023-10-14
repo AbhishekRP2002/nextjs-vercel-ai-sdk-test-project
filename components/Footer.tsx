@@ -10,7 +10,7 @@ export default function Footer() {
           target="_blank"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          ChatGPT{' '}
+          OpenAI ChatGPT{' '}
         </Link>
         and{' '}
         <Link
@@ -23,9 +23,9 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
         <Link
-          href="https://twitter.com/nutlope"
+          href="https://twitter.com/abhishek_rp2002"
           className="group"
-          aria-label="Nutlope Twitter"
+          aria-label="Abhishek Twitter"
         >
           <svg
             aria-hidden="true"

@@ -45,7 +45,7 @@ export default function Page() {
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 mt-12 sm:mt-20">
         <a
           className="flex max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100 mb-5"
-          href="https://github.com/Nutlope/twitterbio"
+          href="https://github.com/AbhishekRP2002/nextjs-vercel-ai-sdk-test-project"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,9 +53,8 @@ export default function Page() {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your next Twitter bio using chatGPT
+          Generate your next Social bio using Generative AI
         </h1>
-        <p className="text-slate-500 mt-5">47,118 bios generated so far.</p>
         <form className="max-w-xl w-full" onSubmit={onSubmit}>
           <div className="flex mt-10 items-center space-x-3">
             <Image
@@ -103,7 +102,7 @@ export default function Page() {
               className="bg-black rounded-xl text-white font-medium px-4 py-2 sm:mt-10 mt-8 hover:bg-black/80 w-full"
               disabled
             >
-              Loading
+               Generate your bio &rarr;
               <span className="loading">
                 <span style={{ backgroundColor: 'white' }} />
                 <span style={{ backgroundColor: 'white' }} />

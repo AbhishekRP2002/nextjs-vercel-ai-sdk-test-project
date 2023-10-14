@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center w-full mt-5 border-b-2 pb-7 sm:px-4 px-2">
+    <header className="navbar">
       <Link href="/" className="flex space-x-3">
         <Image
           alt="header text"
@@ -13,11 +13,11 @@ export default function Header() {
           height={32}
         />
         <h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
-          twitterbio.io
+          socialbio.ai
         </h1>
       </Link>
-      <a
-        href="https://vercel.com/templates/next.js/twitter-bio"
+      <Link
+        href="https://vercel.com/templLinktes/next.js/twitter-bio"
         target="_blank"
         rel="noreferrer"
       >
@@ -28,7 +28,7 @@ export default function Header() {
           width={32}
           height={28}
         />
-      </a>
+      </Link>
     </header>
   );
 }
